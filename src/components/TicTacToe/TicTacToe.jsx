@@ -78,10 +78,10 @@ won(data[2])
         setLock(true)
         if (winner === "x")
          {
-            titleRef.current.innerHTML = `Congratulations: <img src=${cross_icon} >`
+            titleRef.current.innerHTML = `Congratulations: <img src=${cross_icon} > wins`
         }
         else {
-            titleRef.current.innerHTML = `Congratulations: <img src=${circle_icon} >`
+            titleRef.current.innerHTML = `Congratulations: <img src=${circle_icon} > wins`
         }
     }
     const reset = () => {
